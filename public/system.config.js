@@ -53,6 +53,8 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.js',
       '@angular/upgrade/static': 'npm:@angular/upgrade/bundles/upgrade-static.umd.js',
+      'angular2-datatable': 'npm:angular2-datatable',
+       'lodash': 'npm:lodash',
 
       // other libraries
       'rxjs': 'npm:rxjs',
@@ -68,7 +70,11 @@
       },
       rxjs: {
         defaultExtension: 'js'
-      }
+      },
+      'angular2-datatable': {
+		main: './index.js',
+		defaultExtension: 'js'
+	}
     }
   });
 
