@@ -12,10 +12,11 @@ See the License for the specific language governing permissions and
 limitations under the License. -->
 <!doctype html>
 <html lang="en">
-  <title>Cardbard Viewer</title>
+  <head>
+  <title>Dashboard</title>
   <meta charset="UTF-8">
-  <meta name="description" content="Cardboard Viewer">
-  <meta name="keywords" content="Cardboard Viewer">
+  <meta name="description" content="Angular">
+  <meta name="keywords" content="Angular">
   <meta name="author" content="jmdobry">
 
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
@@ -33,10 +34,7 @@ limitations under the License. -->
     <link rel="stylesheet" href="styles/css/global-mode-light.css" type="text/css">
     <link rel="stylesheet" href="styles/css/prism.css" type="text/css">
     <link rel="stylesheet" href="styles/css/site-mode-light.css" type="text/css">
-    <script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous"></script>
+    <script src="styles/js/jquery-3.1.1.min.js"></script>
 
   <!-- Polyfills for older browsers -->
   <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
@@ -51,22 +49,17 @@ limitations under the License. -->
 </head>
 <body>
   <app>
-    Loading...
+    <div id="fountainG" style="margin-top:250px;">
+	<div id="fountainG_1" class="fountainG"></div>
+	<div id="fountainG_2" class="fountainG"></div>
+	<div id="fountainG_3" class="fountainG"></div>
+	<div id="fountainG_4" class="fountainG"></div>
+	<div id="fountainG_5" class="fountainG"></div>
+	<div id="fountainG_6" class="fountainG"></div>
+	<div id="fountainG_7" class="fountainG"></div>
+	<div id="fountainG_8" class="fountainG"></div>
+</div>
+<div id="fountainTextG"><div id="fountainTextG_1" class="fountainTextG">L</div><div id="fountainTextG_2" class="fountainTextG">o</div><div id="fountainTextG_3" class="fountainTextG">a</div><div id="fountainTextG_4" class="fountainTextG">d</div><div id="fountainTextG_5" class="fountainTextG">i</div><div id="fountainTextG_6" class="fountainTextG">n</div><div id="fountainTextG_7" class="fountainTextG">g</div></div>
   </app>
-  <!-- <footer id="main-footer">
-    <div class="mui-container-fluid">
-      <nav class="mui-row" role="navigation">
-        <div class="mui-col-sm-8 mui-col-sm-offset-2">
-          <div class="space-top"></div>
-          <ul class="mui-list--inline mui--text-body2 mui--text-light">
-            <li><a href="https://cloud.google.com/">Google Cloud Platform</a></li>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
-            <li><a href="https://angular.io/">Angular.io</a></li>
-            <li><a href="https://github.com/GoogleCloudPlatform/CardboardView">View Source</a></li>
-          </ul>
-          <div class="mui--text-caption mui--text-light">© 2016 Google Inc.</div>
-        </div>
-      </nav>
-    </div>
-  </footer> -->
+  
 </body>

@@ -7,7 +7,7 @@ import { FlowDesignerComponent} from './modules/flowDesign/flowDesigner.componen
 import { SeismicDriveComponent } from './modules/seismicDrive/seismicDrive.component';
 import { JobListComponent } from './modules/jobList/jobList.component';
 import { ViewerComponent } from './modules/viewer/viewer.component';
-import {JobDetailsComponent} from './modules/dataView/JobDetails.component';
+import {JobDetailsComponent} from './modules/dataView/jobDetails.component';
 
 const routes: Routes = [
      //{path:'departments', component:DepartmentListComponent},
